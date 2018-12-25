@@ -13,7 +13,7 @@ ENV KIBANA_HOME /opt/kibana-$KIBANA_VERSION-linux-x86_64
 
 
 # Connect to ES-Master
-ENV ES_URL http://es:9200
+ENV ES_URL http://es0:9200
 
 WORKDIR $KIBANA_HOME
 
